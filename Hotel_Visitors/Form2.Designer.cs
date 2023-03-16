@@ -44,18 +44,18 @@
             // 
             this.labelText1.AutoSize = true;
             this.labelText1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelText1.Location = new System.Drawing.Point(77, 28);
+            this.labelText1.Location = new System.Drawing.Point(107, 25);
             this.labelText1.Name = "labelText1";
-            this.labelText1.Size = new System.Drawing.Size(190, 29);
+            this.labelText1.Size = new System.Drawing.Size(135, 29);
             this.labelText1.TabIndex = 0;
-            this.labelText1.Text = "Карточка гостя";
+            this.labelText1.Text = "Guest card ";
             // 
             // labelFIOFull2
             // 
             this.labelFIOFull2.AutoSize = true;
             this.labelFIOFull2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.labelFIOFull2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelFIOFull2.Location = new System.Drawing.Point(68, 88);
+            this.labelFIOFull2.Location = new System.Drawing.Point(112, 88);
             this.labelFIOFull2.Name = "labelFIOFull2";
             this.labelFIOFull2.Size = new System.Drawing.Size(187, 22);
             this.labelFIOFull2.TabIndex = 1;
@@ -67,9 +67,9 @@
             this.labelFIOFull1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelFIOFull1.Location = new System.Drawing.Point(12, 92);
             this.labelFIOFull1.Name = "labelFIOFull1";
-            this.labelFIOFull1.Size = new System.Drawing.Size(48, 18);
+            this.labelFIOFull1.Size = new System.Drawing.Size(76, 18);
             this.labelFIOFull1.TabIndex = 2;
-            this.labelFIOFull1.Text = "ФИО:";
+            this.labelFIOFull1.Text = "Full name:";
             // 
             // labelDateOfBirth1
             // 
@@ -77,16 +77,16 @@
             this.labelDateOfBirth1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelDateOfBirth1.Location = new System.Drawing.Point(12, 143);
             this.labelDateOfBirth1.Name = "labelDateOfBirth1";
-            this.labelDateOfBirth1.Size = new System.Drawing.Size(120, 18);
+            this.labelDateOfBirth1.Size = new System.Drawing.Size(92, 18);
             this.labelDateOfBirth1.TabIndex = 3;
-            this.labelDateOfBirth1.Text = "Дата рождения:";
+            this.labelDateOfBirth1.Text = "Date of birth:";
             // 
             // labelDateOfBirth2
             // 
             this.labelDateOfBirth2.AutoSize = true;
             this.labelDateOfBirth2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.labelDateOfBirth2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelDateOfBirth2.Location = new System.Drawing.Point(138, 138);
+            this.labelDateOfBirth2.Location = new System.Drawing.Point(120, 138);
             this.labelDateOfBirth2.Name = "labelDateOfBirth2";
             this.labelDateOfBirth2.Size = new System.Drawing.Size(122, 27);
             this.labelDateOfBirth2.TabIndex = 4;
@@ -98,20 +98,20 @@
             this.labelPayment1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelPayment1.Location = new System.Drawing.Point(12, 198);
             this.labelPayment1.Name = "labelPayment1";
-            this.labelPayment1.Size = new System.Drawing.Size(64, 18);
+            this.labelPayment1.Size = new System.Drawing.Size(70, 18);
             this.labelPayment1.TabIndex = 5;
-            this.labelPayment1.Text = "Оплата:";
+            this.labelPayment1.Text = "Payment:";
             // 
             // labelPayment2
             // 
             this.labelPayment2.AutoSize = true;
             this.labelPayment2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.labelPayment2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelPayment2.Location = new System.Drawing.Point(82, 193);
+            this.labelPayment2.Location = new System.Drawing.Point(99, 193);
             this.labelPayment2.Name = "labelPayment2";
-            this.labelPayment2.Size = new System.Drawing.Size(74, 27);
+            this.labelPayment2.Size = new System.Drawing.Size(119, 27);
             this.labelPayment2.TabIndex = 6;
-            this.labelPayment2.Text = "Карта";
+            this.labelPayment2.Text = "Credit card";
             // 
             // labelNumberDaysVisit2
             // 
@@ -130,20 +130,20 @@
             this.labelNumberDaysVisit1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelNumberDaysVisit1.Location = new System.Drawing.Point(12, 250);
             this.labelNumberDaysVisit1.Name = "labelNumberDaysVisit1";
-            this.labelNumberDaysVisit1.Size = new System.Drawing.Size(133, 18);
+            this.labelNumberDaysVisit1.Size = new System.Drawing.Size(118, 18);
             this.labelNumberDaysVisit1.TabIndex = 8;
-            this.labelNumberDaysVisit1.Text = "Количество дней:";
+            this.labelNumberDaysVisit1.Text = "Quantity of days:";
             // 
             // checkBoxAnimal
             // 
             this.checkBoxAnimal.AutoCheck = false;
             this.checkBoxAnimal.AutoSize = true;
             this.checkBoxAnimal.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.checkBoxAnimal.Location = new System.Drawing.Point(15, 292);
+            this.checkBoxAnimal.Location = new System.Drawing.Point(41, 293);
             this.checkBoxAnimal.Name = "checkBoxAnimal";
-            this.checkBoxAnimal.Size = new System.Drawing.Size(217, 22);
+            this.checkBoxAnimal.Size = new System.Drawing.Size(148, 22);
             this.checkBoxAnimal.TabIndex = 9;
-            this.checkBoxAnimal.Text = "Путешествую с животными";
+            this.checkBoxAnimal.Text = "Traveling with pets";
             this.checkBoxAnimal.UseVisualStyleBackColor = true;
             // 
             // Form2
